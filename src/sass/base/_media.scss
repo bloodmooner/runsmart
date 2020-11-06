@@ -113,6 +113,19 @@
 }
 
 @media (max-width: 575px) {
+
+    .modal {
+        width: 250px;
+        padding: 38px 10px 40px 10px;
+        &__descr {
+            margin-bottom: 20px;
+        }
+        .feed-form {
+            width: 200px;
+        }
+    }
+
+
     .title_left {
         font-size: 25px;
         text-align: center;
